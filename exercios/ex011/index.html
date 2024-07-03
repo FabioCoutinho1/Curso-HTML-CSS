@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTMl</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Abrindo imagens em tamanho de telas diferentes!</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="img/foto-p.png" type="image/png">
+        <source media="(max-width:  1050px)" srcset="img/foto-m.png" type="image/png">
+        <img src="img/foto-g.png" alt="Imagens flexivel">
+    </picture>
+
+    <p>A basse e a imagem padrão a carregar, e acima vem os source, temos que seguir a ordem</p>
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudio</p>
+    <audio preload="metadata"  loop>
+        <source src="midia/musica.mp3" type="audio/mpeg">
+    </audio>
+
+    <p>
+        <ul>
+            <li>autoplay</li>
+            <ul>
+                <li>reproduzir altomatico</li>
+            </ul>
+            <li>loop</li>
+            <ul>
+                <li>fazer o aldio ficar em loop</li>
+            </ul>
+            <li>controler</li>
+            <ul>
+                <li>gerar um painel de controle do aldio</li>
+            </ul>
+        </ul>
+    </p>
+</body>
+</html>
