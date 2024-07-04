@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+    background-color: aquamarine;
+    font-family: sans-serif;
+}
+
+h1{
+    color: blue;
+}
+h1#principal{
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+h2{
+    color: brown;
+}
