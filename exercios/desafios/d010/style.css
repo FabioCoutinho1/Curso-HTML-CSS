@@ -1,0 +1,87 @@
+@font-face {
+    font-family:android;
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(197, 247, 197);
+}
+header{
+    background-image: radial-gradient(rgb(1, 165, 1), rgb(18, 73, 18));
+    color: white;
+}
+header>h1{
+    margin: 0;
+    text-align: center;
+    padding: 30px;
+}
+header>h2{
+    text-align: center;
+    padding: 30px;
+    font-size: 16px;
+    margin: 0px 10px;
+}
+nav{
+    padding-bottom: 10px;
+}
+nav>a{
+    color: white;
+    text-decoration:none;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+main{
+    background-color: white;
+    margin: 0px 132px;
+    box-shadow: 0px 8px 12px 1px rgba(0, 0, 0, 0.418);
+}
+section#conteudo{
+    padding: 50px;
+    margin: auto;
+}
+#historia-androide{
+    margin-top: 0;
+    font-weight: bold;
+}
+#conteudo>article>h2{
+    color: green;
+    font-family: android;
+}
+article>p{
+    text-indent: 30px;
+}
+#video-android{
+    background-color: darkgreen;
+}
+section#aprender-mais{
+    margin: 20px;
+}
+article#aprender-mais{
+    background-color: rgb(109, 206, 173);
+    margin: 0PX 30PX 30px 30px;
+    padding: 10px;
+    border-radius: 0PX 0PX 10px 10PX;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.377);
+}
+section#aprender-mais>h2{
+    background-color: rgb(109, 177, 109);
+    color: white;
+    margin: 0px 30px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+ul{
+    margin: 10px;
+}
+footer{
+    text-align: center;
+    background-color: darkgreen;
+}
+footer>p{
+    margin: 0;
+    padding: 10px;
+    color: white;
+}
