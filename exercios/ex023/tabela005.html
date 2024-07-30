@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-weight: bold;
+            font-size: 1.3em;
+            padding: 8px;
+        }
+
+        th, td{
+            border: solid 1px black;
+            padding: 8PX;
+        }
+
+        col.cnome{
+            background-color: yellow;
+        }
+
+        col.grupo{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício Tabela</h1>    
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="grupo" span="3">
+        </colgroup>
+        <caption>Cadastre-se</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Sexo</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalisata</td>
+        </tr>
+        <tr>
+            <td>Fabio Coutino</td>
+            <td>M</td>
+            <td>21</td>
+            <td>Progamador</td>
+        </tr>
+        <tr>
+            <td>Natacha Soares</td>
+            <td>F</td>
+            <td>19</td>
+            <td>Advogada</td>
+        </tr>
+        <tr>
+            <td>Claudia Moer</td>
+            <td>M</td>
+            <td>34</td>
+            <td>Atriz</td>
+        </tr>
+        <tr>
+            <td>Fernando</td>
+            <td>M</td>
+            <td>29</td>
+            <td>Medico</td>
+        </tr>
+        <tr>
+            <td>Gustavo</td>
+            <td>M</td>
+            <td>34</td>
+            <td>Mecanico</td>
+        </tr>
+    </table>
+</body>
+</html>
