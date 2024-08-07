@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulálio</title>
+</head>
+<body>
+    <h1>Exemplos fora do input</h1>
+
+    <form action="cadastro.php" method="get">
+
+        <label for="iestados">Estados</label>
+        <select name="estados" id="iestados">
+
+            <option value="" selected> Escolha</option>
+            <optgroup label="Região Sudeste">
+                <option value="MG">MG</option>
+                <option value="RJ">RJ</option>
+                <option value="SP">SP</option>
+            </optgroup>
+
+            <optgroup label="Região Nordeste">
+                <option value="MA">MA</option>
+                <option value="PE">PE</option>
+                <option value="RN">Rn</option>
+            </optgroup>
+    
+        </select>
+
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="ilist">
+            <datalist id="ilist">
+                <option>Professor</option>
+                <option>Desenvolvedor</option>
+                <option>Medico</option>
+                <option>Mecanico</option>
+            </datalist>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
