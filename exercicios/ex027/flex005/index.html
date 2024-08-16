@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible box</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            height: 100vh;
+            width: 100vw;
+        }
+
+        main{
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+            background-color: lightgreen;            
+
+            justify-content: center;
+            align-items: center;
+        }
+
+        section{
+            text-align: center;
+            vertical-align: bottom;
+            background-color: lightseagreen;
+            height: 500px;
+            width: 500px;
+        }
+        
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>login</h1>
+        </section>
+    </main>
+</body>
+</html>
