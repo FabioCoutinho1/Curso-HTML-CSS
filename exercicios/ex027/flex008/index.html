@@ -1,53 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flexible box</title>
     <style>
-        div.container{
-            background-color: lightsalmon;
+      div.container {
+        background-color: lightsalmon;
 
-            display: flex;
-        }
+        display: flex;
+      }
 
-        div.item1, div.item2, div.item3{
-            background-color: lightblue;
-            border: 1px solid black;
-            text-align: center;
+      div.item1,
+      div.item2,
+      div.item3 {
+        background-color: lightblue;
+        border: 1px solid black;
+        text-align: center;
 
-            /* flex-basis: 350px; */
-        }
+        /* flex-basis: 350px; */
+      }
 
-        div.item1{
-            /* flex-grow: 1;
+      div.item1 {
+        /* flex-grow: 1;
             flex-shrink: 1; */
 
-            flex: 1 1 350px;
-        }
+        flex: 1 1 350px;
+      }
 
-        div.item2{
-            /* flex-grow: 0;
+      div.item2 {
+        /* flex-grow: 0;
             flex-shrink: 1; */
 
-            flex: 0 1 350px;
-            }
+        flex: 0 1 350px;
+      }
 
-        div.item3{
-            /* flex-grow: 3;
+      div.item3 {
+        /* flex-grow: 3;
             flex-shrink: 0; */
 
-            flex: 3 0 350px;
+        flex: 3 0 350px;
 
         /* o flex e uma junção  */
-        }
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="item1">A</div>
-        <div class="item2">B</div>
-        <div class="item3">C</div>
-    </div>    
-</body>
+      <div class="item1">A</div>
+      <div class="item2">B</div>
+      <div class="item3">C</div>
+    </div>
+  </body>
 </html>

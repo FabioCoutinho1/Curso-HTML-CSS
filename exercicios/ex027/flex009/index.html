@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu site</title>
+    <style>
+        	*{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body{
+                height: 100vh;
+                width: 100vw; 
+                background-color: darkgrey;
+                transition: .1s ease-out;
+            }
+
+            header{
+                background-color: gray;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                min-width: 100%;
+                flex-wrap: wrap;
+                padding: 20px;
+                
+            }
+
+            header h1{
+                flex-basis: 200px;
+            }
+
+            header nav{
+                display: flex;
+                gap: 30px;
+            }
+            
+            header nav a{
+                text-decoration: none;
+                color: white;
+                font-size: 1.3rem;
+                background-color: lightgray;
+                padding: 10px;
+                border-radius: 6px;
+                transition: .5s ease-in-out;
+            }
+            
+            header nav a:hover{
+                background-color: rgb(158, 158, 158);
+            }
+
+            main{
+                display: flex;
+                align-items: center;
+                flex-flow: column nowrap;
+            }
+
+            section{
+                background-color: white;
+
+                margin-top: 10px;
+                border-radius: 10px;
+
+                max-width: 600px;
+                padding: 20px;
+            }
+
+            section p{
+                margin-top: 10px;
+                text-align: justify;
+                line-height: 20px;
+            }
+
+            @media screen and (max-width: 668px) {
+                header{
+                    flex-direction: column;
+                }
+
+                header nav{
+                    width: 100%;
+                    gap: 5px;
+                    padding: 10px;
+                    flex-flow: column nowrap;
+                    text-align: center;
+                }
+
+                header h1{
+                    flex-basis: 0;
+                }
+            }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meu site</h1>
+
+        <nav>
+            <a href="#">opção1</a>
+            <a href="#">opção2</a>
+            <a href="#">opção3</a>
+            <a href="#">opção4</a>
+            <a href="#">opção5</a>
+            <a href="#">opção6</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Meu titulo</h2>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni
+                suscipit voluptatum quia exercitationem labore illo autem distinctio
+                recusandae, eius velit id minus iusto asperiores, earum tempore sed
+                ipsum ut. Officiis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab alias aliquam voluptate excepturi. Placeat nulla, doloribus tenetur at fugit quasi porro quidem, sunt aspernatur vero voluptate similique. Consequatur, adipisci ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nisi voluptates, autem aperiam animi iure quasi quibusdam asperiores quaerat nihil laudantium perspiciatis, voluptatem neque. Officia quam suscipit atque veniam labore.
+            </p>
+        </section>
+    </main>
+</body>
+
+</html>
